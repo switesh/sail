@@ -1,8 +1,13 @@
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
+
 <script>
 import Appbar from '$lib/components/Appbar-close.svelte'
+let title = 'Product roadmap'
 </script>
 
-<Appbar title="Product roadmap"/>
+<Appbar title="{title}"/>
 
 <div class="px-8 py-4">
 <h1>Create</h1>

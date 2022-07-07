@@ -1,8 +1,13 @@
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
+
 <script>
 import Appbar from '$lib/components/Appbar-close.svelte'
+let title = 'Styleguide'
 </script>
 
-<Appbar title="Styleguide"/>
+<Appbar title="{title}"/>
 
 <div class="p-8 flex flex-col gap-4">
   <h1>Heading 1</h1>

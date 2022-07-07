@@ -1,9 +1,20 @@
-<script>
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
 
+<script>
+let title = 'Sail'
 </script>
 
+<div class="px-4 py-2 flex justify-between items-center border-b border-slate-200">
+  <h1 class="text-lg font-semibold">{title}</h1>
+  <section>
+    <a href="roadmap" class="btn">Roadmap</a>
+  </section>
+</div>
+
 <section class="p-8 flex flex-col gap-4">
-<h1>Sail</h1>
+<h1>{title}</h1>
 
 <section>
 Your data is yours.
@@ -61,7 +72,7 @@ Free to use. Forever.
 <hr class="my-8">
 <footer class="p-8 bg-slate-600 text-slate-300">
 <ul class="space-y-2">
-  <li><a href="product-roadmap">Product roadmap</a></li>
+  <li><a href="roadmap">Product roadmap</a></li>
   <li><a href="styleguide">Styleguide</a></li>
 </ul>
 </footer>
