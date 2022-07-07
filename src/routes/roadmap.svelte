@@ -29,5 +29,6 @@ let title = 'Product roadmap'
 <li>Business Model Canvas</li>
 <li>SWOT</li>
 <li>Onion ring (ecosystem map)</li>
+<li>Visual website/app builder with Tailwind css only? Crazy?</li>
 </ul>
 </div>
