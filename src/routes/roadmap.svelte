@@ -13,14 +13,21 @@ let title = 'Product roadmap'
 <h1>Create</h1>
 <ul class="p-4 list-decimal">
 <li>User(s) and User Task Flow</li>
-<li>Kanban</li>
+<li><a href="product/kanban">Kanban</a></li>
 <li>Task list</li>
-<li>UX research notes/document</li>
-<li>User journey</li>
+<li>Competitor research</li>
+<li>UX research notes/document
+<ol class="list-decimal list-inside">
+<li>Take notes (text and audio with transcribe)</li>
+<li>Analyse and synthesize</li>
+<li>Present insights (slideshow)</li>
+</ol>
+<li>User journey map</li>
+<li>Customer journey map</li>
+<li>Service blueprint</li>
+<li>Analytics? Possible (free open source library)?</li>
 <li>Business Model Canvas</li>
 <li>SWOT</li>
-<li>Competitor research</li>
-<li>Something...</li>
+<li>Onion ring (ecosystem map)</li>
 </ul>
-<p>More to come...</p>
 </div>
